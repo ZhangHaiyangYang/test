@@ -1,0 +1,18 @@
+git 分布式版本管理工具
+svn 集中式管理工具
+
+git使用步骤 1
+首先使用 git init 初始化项目 会产生一个隐藏的文件夹
+常用的命令
+1 git add 文件名 ：表示 把文件加入缓冲区 准备加入库
+2 git commit -m "注释" 把在缓冲回区的文件加入库
+3 git checkout 撤回修改 
+git log 可以查看我们做了几次的提交  等一些提交的信息 
+
+git reset --hard head^
+
+
+
+注意 文件修改一次就要执行一下 缓冲(git add 文件名)才能加入 库 (git commit -m "注释")
+
+
